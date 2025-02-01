@@ -1,13 +1,12 @@
 module github.com/aquasecurity/trivy-db
 
 go 1.22
-
 require (
 	github.com/aquasecurity/bolt-fixtures v0.0.0-20200903104109-d34e7f983986
 	github.com/aquasecurity/go-gem-version v0.0.0-20201115065557-8eed6fe000ce
 	github.com/aquasecurity/go-npm-version v0.0.0-20201110091526-0b796d180798
-	github.com/aquasecurity/go-pep440-version v0.0.0-20210121094942-22b2f8951d46
-	github.com/aquasecurity/go-version v0.0.0-20210121072130-637058cfe492
+	github.com/aquasecurity/go-pep440-version v0.0.1
+	github.com/aquasecurity/go-version v0.0.1
 	github.com/briandowns/spinner v1.23.0
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/knqyf263/go-deb-version v0.0.0-20190517075300-09fca494f03d
@@ -15,13 +14,13 @@ require (
 	github.com/masahiro331/go-mvn-version v0.0.0-20210429150710-d3157d602a08
 	github.com/pandatix/go-cvss v0.6.2
 	github.com/samber/lo v1.47.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/urfave/cli v1.22.16
 	go.etcd.io/bbolt v1.3.11
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
 	golang.org/x/text v0.19.0
 	golang.org/x/tools v0.24.0
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
